@@ -1,8 +1,7 @@
 # Add  code here!
-def prime?(["2","4","7","11"])
-  if prime?
-    return true
+def prime?(number)
+    return false if (number.even? && number > 2) || number <= 1
   else
-    return false
+    return true
   end
 end
