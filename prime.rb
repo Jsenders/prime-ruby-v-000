@@ -4,7 +4,7 @@ def prime?(number)
     half_num = number / 2
       n = 3
       while n < half_num
-        return false if number % x == 0
+        return false if number % n == 0
         n += 2
       end
 
